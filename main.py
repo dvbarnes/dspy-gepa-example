@@ -28,7 +28,8 @@ def load_dataset():
         examples = []
         for row in dataset:
             examples += [
-                dspy.Example(image_path=d["image_path"], rows=d["rows"]).with_inputs("image_path")
+                dspy.Example(image_path=d["image_path"], 
+                    rows=d["rows"]).with_inputs("image_path")
                 for d in row
             ]
         
