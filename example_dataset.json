@@ -1,0 +1,11 @@
+[
+    {
+        "image_path": "images/image_1.jpg",
+        "rows": [{
+            "date": "2023-01-01",
+            "description": "A beautiful sunrise over the mountains.",
+            "location": "Mountain View",
+            "amount": 120
+        }]
+    }
+]
